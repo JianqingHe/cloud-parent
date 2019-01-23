@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-client" />
+        <module name="cloud-parent" />
+        <module name="cloud-region" />
+        <module name="cloud-ribbon" />
+        <module name="cloud-server" />
+        <module name="cloud-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-client" target="1.8" />
+      <module name="cloud-parent" target="1.8" />
+      <module name="cloud-region" target="1.8" />
+      <module name="cloud-ribbon" target="1.8" />
+      <module name="cloud-server" target="1.8" />
+      <module name="cloud-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

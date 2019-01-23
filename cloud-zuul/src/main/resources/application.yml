@@ -1,0 +1,21 @@
+server:
+  port: 8095
+
+spring:
+  application:
+    name: cloud-zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8090/eureka/
+
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: cloud-ribbon
+    api-b:
+      paht: /api-b/**
+      serviceId: cloud-region
+

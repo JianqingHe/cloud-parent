@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-client/cloud-client.iml" filepath="$PROJECT_DIR$/cloud-client/cloud-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-parent.iml" filepath="$PROJECT_DIR$/cloud-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-region/cloud-region.iml" filepath="$PROJECT_DIR$/cloud-region/cloud-region.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-ribbon/cloud-ribbon.iml" filepath="$PROJECT_DIR$/cloud-ribbon/cloud-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-server/cloud-server.iml" filepath="$PROJECT_DIR$/cloud-server/cloud-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" filepath="$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" />
+    </modules>
+  </component>
+</project>
